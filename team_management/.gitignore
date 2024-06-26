@@ -6,6 +6,7 @@ __pycache__/
 
 # Ignore the local settings file which can contain sensitive information
 team_management/settings_local.py
+.idea
 
 # Ignore database files
 db.sqlite3
