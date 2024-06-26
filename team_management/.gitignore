@@ -1,0 +1,48 @@
+# Django project specific ignores
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Ignore the local settings file which can contain sensitive information
+team_management/settings_local.py
+
+# Ignore database files
+db.sqlite3
+
+# Ignore static files collected by Django
+staticfiles/
+
+# Ignore media files uploaded by users
+media/
+
+# Ignore environment specific files
+.env
+
+# Ignore pipenv or virtualenv folders
+.env/
+venv/
+virtualenv/
+pipenv/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore pytest cache
+__pycache__/
+.pytest_cache/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore any backup files
+*~
+
+# Ignore any other temporary or generated files
+*.bak
+*.swp
